@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "projs\Game\Game.vcxproj", "{A65F1E0F-E1D0-4BBC-8402-B3C93213E5B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{9D17BA63-B3C1-42AF-9CB3-599FC978A6A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{BBFD7173-B35C-42FD-B5EB-A0F68A0FEE72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "projs\Math\Math.vcxproj", "{079D8D59-E62D-40B2-926F-08A2717D121B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cuscullola.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = projs\\Game\\Game.vcxproj
+		SccProjectTopLevelParentUniqueName1 = typhoon-engine.sln
+		SccProjectName1 = projs/Game
+		SccLocalPath1 = projs\\Game
+		SccProjectUniqueName2 = projs\\Math\\Math.vcxproj
+		SccProjectTopLevelParentUniqueName2 = typhoon-engine.sln
+		SccProjectName2 = projs/Math
+		SccLocalPath2 = projs\\Math
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65F1E0F-E1D0-4BBC-8402-B3C93213E5B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A65F1E0F-E1D0-4BBC-8402-B3C93213E5B6}.Debug|Win32.Build.0 = Debug|Win32
+		{A65F1E0F-E1D0-4BBC-8402-B3C93213E5B6}.Release|Win32.ActiveCfg = Release|Win32
+		{A65F1E0F-E1D0-4BBC-8402-B3C93213E5B6}.Release|Win32.Build.0 = Release|Win32
+		{079D8D59-E62D-40B2-926F-08A2717D121B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{079D8D59-E62D-40B2-926F-08A2717D121B}.Debug|Win32.Build.0 = Debug|Win32
+		{079D8D59-E62D-40B2-926F-08A2717D121B}.Release|Win32.ActiveCfg = Release|Win32
+		{079D8D59-E62D-40B2-926F-08A2717D121B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A65F1E0F-E1D0-4BBC-8402-B3C93213E5B6} = {9D17BA63-B3C1-42AF-9CB3-599FC978A6A7}
+		{079D8D59-E62D-40B2-926F-08A2717D121B} = {BBFD7173-B35C-42FD-B5EB-A0F68A0FEE72}
+	EndGlobalSection
+EndGlobal

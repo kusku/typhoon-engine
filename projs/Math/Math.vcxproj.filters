@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Vectors">
+      <UniqueIdentifier>{ba43b095-0fa7-4714-a310-a334e3e38e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vectors\Vector4">
+      <UniqueIdentifier>{9602a6f4-a507-492d-a6ce-5e8eec59d3a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Math\Vectors\Vector4\Vector4_float.h">
+      <Filter>Vectors\Vector4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\Math\Vectors\Vector4\Vector4_float.inl">
+      <Filter>Vectors\Vector4</Filter>
+    </None>
+  </ItemGroup>
+</Project>
